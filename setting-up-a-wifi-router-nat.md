@@ -21,7 +21,7 @@ If you don't do this, the `hostapd` might not start up when you're completed.
 
 1. Start `rasi-config`
 2. Select `System options`
-3. Select "Wireless LAN"
+3. Select `Wireless LAN`
 4. Select your country
 5. When prompted for SSID, just hit `Cancel`
 
