@@ -1,4 +1,4 @@
-# Guides
+# WiKi
 Guides, cheat sheets and general life-hacks
 
 # Raspberry PI
