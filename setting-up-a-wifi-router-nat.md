@@ -2,6 +2,19 @@
 
 This guide is a slightly modfied copy of [How to use your Raspberry Pi as a wireless access point](https://thepi.io/how-to-use-your-raspberry-pi-as-a-wireless-access-point/). The major difference is that it's a guide for setting up a separate (NAT:d) subnet using `iptables` only - not using the bridge technology (which esentially extends the network, rather than adding a separate one). The only reason for this is that I didn't get the bridge-working - well, it worked for the Wifi-clients, but the PI-router itself become unaccessible.
 
+# About compatbility
+
+This guide was tested on the platforms listed in the table below. OS version was checked using:
+
+````
+cat /etc/os-release
+````
+
+| OS | PI | Comments |
+| -- | -- | -------- |
+| Raspbian GNU/Linux 11 (bullseye) | V3 Model B v1.2 | This was the original platform, leading me away from bridge to pure NAT |
+
+
 # Step 0: Set up the WIFI country
 
 If you don't do this, the `hostapd` might not start up when you're completed.
