@@ -63,7 +63,7 @@ Now that you’re in the file, add the following lines at the end:
 
 ````
 interface wlan0
-static ip_address=192.168.0.10/24
+static ip_address=192.168.10.1/24
 ````
 
 After that, press Ctrl+X, then Y, then Enter to save the file and exit the editor.
